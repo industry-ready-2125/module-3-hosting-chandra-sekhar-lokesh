@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-DfXdz2htPH0lsSSGFpoO/ufreqqF6MVu4JdG7PhIxZlW8sSJv43gkdSHlua9DmM/" crossorigin="anonymous">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .top-bar {
+            height: 108px;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            padding: 0 40 30 0px;
+        }
+
+        .brand-logo {
+            font-size: 24px;
+            font-weight: bold;
+            padding-left: -100px;
+        }
+
+        .logo {
+            width: 207px;
+            height: fit-content;
+            padding-right: 350px;
+            padding-left: 63px;
+        }
+
+        .menu-options {
+            display: flex;
+            align-items: center;
+        }
+
+        .menu-option {
+            margin-right: 28px;
+            margin-left: 28px;
+            font-size: 16px;
+        }
+
+        .search-icon {
+            font-size: 20px;
+        }
+
+        a{
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration-line: none;
+            color: black;
+        }
+
+        a:hover{
+            color: rgb(24, 108, 34);
+        }
+
+        .dot {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: white;
+        }
+
+        #contentarea h1{
+            font-size: 45px;
+            word-wrap: break-word;
+            line-height: 1.5em;
+            font-family: Old Standard TT, serif;
+            color: #5e5e5e;
+            font-weight: 400;
+            letter-spacing: 0em;
+        }
+        
+        #contentarea h3{
+            font-size: 16px;
+            word-wrap: break-word;
+            line-height: 1.5em;
+        }
+
+        #contentarea p {
+            color: #292929;
+            font-family: Montserrat, sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            letter-spacing: 0em;
+        }
+
+        #contentarea span{
+            color: #292929;
+            font-family: Montserrat, sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            letter-spacing: 0em;
+        }
+
+        .column{
+            float: left;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            box-sizing: border-box;
+        }
+
+        .column.full {
+            width: 100%;
+        }
+
+        .column.third {
+            width: 33.3333333333%;
+        }
+
+        .center{
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="brand-logo">
+            <a href="home.html"><img src="./images/logo.png" class="logo" style="display: inline;"></a>
+        </div>
+        <div class="menu-options">
+            <div class="menu-option">
+                <a href="home.html">HOME</a>
+            </div>
+            <img src="./images/dot.png" alt="dot" class="dot">
+            <div class="menu-option">
+                <a href="about.html">ABOUT</a>
+            </div>
+            <img src="./images/dot.png" alt="dot" class="dot">
+            <div class="menu-option">
+                <a href="#">STORE</a>
+            </div>
+            <img src="./images/dot.png" alt="dot" class="dot">
+            <div class="menu-option">
+                <a href="contact.html">CONTACT</a>
+            </div>
+            <div class="menu-option">
+                <a href="#"><img class="search-icon" src="./images/search-icon.png" alt="Search"></a>
+            </div>
+        </div>
+    </div>
+
+   
+
+    <div id="contentarea" class="no-bg-needed">
+        <div class="row edge-to-edge clearfix">
+            <div class="column full">
+                <br>
+                <br>
+            </div>
+        </div>
+
+        <div class="row clearfix">
+            <div class="column full center">
+                <br>
+                <br>
+                <h1>Store</h1>
+                <br>
+                <br>
+            </div>
+        </div>
+
+        <div class="row edge-to-edge clearfix">
+            <div class="column full">
+                <br>
+                <br>
+            </div>
+        </div>
+
+        <div class="column third center">
+            <img src="./images/location.png" alt="location">
+            <h3>
+                <span style="color: rgb(68, 68, 68);">
+                    <b>Adventure18</b>
+                </span>
+            </h3>
+            <h3>
+                <span color="#444444">
+                    F-6 Naraina Vihar
+                    <br>
+                    (Near PVR Naraina)
+                    <br>
+                    New Delhi - 110028, India
+                </span>
+            </h3>
+            <p>
+                <span color="#444444">OR</span>
+            </p>
+            <p>
+                <span color="#444444"><b>Climb Central</b></span>
+            </p>
+            <p>
+                <span color="#444444">
+                    Indira Estate, Metro Pillar 173, Mehrauli Gurugram Road, New Delhi 110047, INDIA
+                    <br>
+                </span>
+            </p>
+        </div>
+
+        <div class="column third center">
+            <img src="./images/phone.png" alt="phone">
+            <h3>
+                <b>
+                    <span style="color: rgb(68, 68, 68)">Call Us</span>
+                </b>
+            </h3>
+            <h3>
+                <span style="color: rgb(68, 68, 68)">
+                    9643317178
+                    <br>
+                </span>
+            </h3>
+            <h3>
+                <br>
+            </h3>
+            <p>
+                <br>
+            </p>
+            <p>
+                +91 99992 14858
+                <br>
+            </p>
+            <h3>    
+                <span style="color:rgb(68, 68, 68)">
+                    <br>
+                </span>
+            </h3>
+        </div>
+
+        <div class="column third center">
+            <img src="./images/Mail.png" alt="Mail">
+            <h3>
+                <b>
+                    <span style="color:rgb(68, 68, 68)">Email</span>
+                </b>
+            </h3>
+            <h3>
+                <span style="color:rgb(68, 68, 68);">
+                    <a href="mailto:sales@adventure18.com" title target="_blank" class="is-global-btn-small">sales@adventure18.com</a>
+                </span>
+            </h3>
+            <p>
+                <br>
+            </p>
+            <p>
+                <br>
+            </p>
+            <p>
+                <br>
+            </p>
+            <p>
+                <a href="mailto:info@climbcentral.in" target="_blank" title class="is-global-btn-small">INFO@CLIMBCENTRAL.IN</a>
+                <br>
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
