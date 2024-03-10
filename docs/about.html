@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-DfXdz2htPH0lsSSGFpoO/ufreqqF6MVu4JdG7PhIxZlW8sSJv43gkdSHlua9DmM/" crossorigin="anonymous">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .top-bar {
+            height: 108px;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            padding: 0 40 30 0px;
+        }
+
+        .brand-logo {
+            font-size: 24px;
+            font-weight: bold;
+            padding-left: -100px;
+        }
+
+        .logo {
+            width: 207px;
+            height: fit-content;
+            padding-right: 350px;
+            padding-left: 63px;
+        }
+
+        .menu-options {
+            display: flex;
+            align-items: center;
+        }
+
+        .menu-option {
+            margin-right: 28px;
+            margin-left: 28px;
+            font-size: 16px;
+        }
+
+        .search-icon {
+            font-size: 20px;
+        }
+
+        a{
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration-line: none;
+            color: black;
+        }
+        a:hover{
+            color: rgb(24, 108, 34);
+        }
+
+        .dot {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: white;
+        }
+
+        .row.edge-to-edge {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            text-align: center;
+        }
+
+        .column.half{
+            width: 50%;
+        }
+
+        .column.full{
+            width: 100%;
+        }
+
+        .column{
+            float: left;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            box-sizing: border-box;
+        }
+
+        .text-left{
+            text-align: left;
+        }
+
+        #contentarea h2{
+            color: #565656;
+            font-family: Montserrat, sans-serif;
+            font-weight: 400;
+            letter-spacing: 0em;
+            font-size: 30px;
+            margin: 0.5em 0;
+        }
+        
+        #contentarea p{
+            word-wrap: break-word;
+            line-height: 1.8em;
+            color: #292929;
+            font-family: Montserrat, sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            letter-spacing: 0em;
+        }
+
+        .btn{
+            padding: 7px 25px;
+            font-size: 1em;
+            line-height: 2em;
+            border-radius: 5px;
+            letter-spacing: 1px;
+            display: inline-block;
+            margin-bottom: 0;
+            font-weight: 400;
+            text-align: center;
+            text-decoration: none;
+            vertical-align: middle;
+            cursor: pointer;
+            border: 0 solid transparent;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="brand-logo">
+            <a href="home.html"><img src="./images/logo.png" class="logo" style="display: inline;"></a>
+        </div>
+        <div class="menu-options">
+            <div class="menu-option">
+                <a href="home.html">HOME</a>
+            </div>
+            <img src="./images/dot.png" alt="dot" class="dot">
+            <div class="menu-option">
+                <a href="#">ABOUT</a>
+            </div>
+            <img src="./images/dot.png" alt="dot" class="dot">
+            <div class="menu-option">
+                <a href="#">STORE</a>
+            </div>
+            <img src="./images/dot.png" alt="dot" class="dot">
+            <div class="menu-option">
+                <a href="contact.html">CONTACT</a>
+            </div>
+            <div class="menu-option">
+                <a href="#"><img class="search-icon" src="./images/search-icon.png" alt="Search"></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="contentarea">
+        <div class="row edge-to-edge">
+            <div class="column full">
+                <br>
+                <br>
+            </div>
+        </div>
+       
+        <div class="row clearfix">
+            <div class="column full">
+                <div class="display">
+                    <h2 style="text-align: center;">
+                        "Adventure: the persuit of life." 
+                        <span style="letter-spacing: 0px">- </span>
+                        <i style="letter-spacing: 0px;">Daniel Roy Wiarda</i>
+                        <br>
+                    </h2>
+                </div>
+                <div class="edit">
+                    <h3></h3>
+                </div>
+                <p></p>
+            </div>
+        </div>
+    
+        <div class="row clearfix">
+            <div class="column half text-left">
+                <h3></h3>
+                <div class="edit">
+                    <p class="p1">
+                        Adventure18 was set up in 2004 by Mohit Oberoi, noted rock climber and athlete, who had the vision of starting a one-stop-shop to provide <b>the right gear for serious adventure expeditions.</b>
+                        <br>
+                        <br>
+                        Mohit is only too familiar with the gear he sells - he attempted his first big peak at the age of 18, Mt. Bhrigupanth in the Garhwal Himalayas, and went on to represent India as part of the 1st sport climbing team to compete at a World Cup, Japan, 1991. This marked the beginning of the Sport Climbing movement in India and Asia.
+                    </p>
+                    <p class="p2">
+                        Since it's inception, Adventure18 has strived for excellence - working with some of the best outdoor brands from around the world including Entrepresis, Beal, Petzl, Lafuma, Millet, Camelbak, Coghlans,The North Face, Valandre, and RAB.
+                        <br>
+                    </p>
+                    <p class="p1">
+                        The brand has evolved out of a deep rooted belief to pursue life as an adventure and since 2004, has had an offline presence in cities across India including Delhi, Mumbai, Siliguri, Guwahati, and Manali.
+                        <br>
+                    </p>
+                    <p class="p1">
+                        The athletes we sponsor include Manikandan Kumar, Para World Sport Climbing Champion, and Kumar Gaurav, India’s #1 Sport Climber.
+                    </p>
+                </div>
+                <p></p>
+            </div>
+            <div class="column half"><img src="./images/contactpageimage.jpg" alt="runner image"></div>
+        </div>
+    
+        <div class="row clearfix">
+            <div class="column full">
+                <p></p>
+                <div class="edit">
+                    <p class="p4">
+                        For someone who competes professionally in sport climbing, road running, open water swimming, mountain biking, triathlon and ultra marathon events, Mohit lists the Ironman South Africa Triathlon 2011, Ironman Distance Challenge Taiwan 2014, Bhatti Lakes Ultra Run 100 miles, and English Channel Relay Swim 2015, as some of the toughest events he has participated in.
+                        <br>
+                    </p>
+                    <p class="p3">
+                        Personally, Mohit has set his sights on doing the English Channel swim solo and scaling some (secret!) big rock walls in the Himalayas in the coming months and years. Follow Adventure18 for updates!
+                        <br>
+                    </p>
+                    <p class="p4">
+                        As for Adventure18, at a time when the number of people heading outdoors is on the rise, Mohit wants to provide advice and gear with the right fit to make sure you can make the most of your expeditions.
+                        <br>
+                    </p>
+                    <p class="p4">
+                        So, get in touch over email, phone or walk in to our store and speak with one of our gear experts who will make sure you are adequately equipped for your next adventure!
+                        <br>
+                    </p>
+                </div>
+                <p></p>
+            </div>
+        </div>
+    
+        <div class="row edge-to-edge clearfix">
+            <div class="column full">
+                <br>
+            </div>
+        </div>
+    
+        <div class="row clearfix">
+            <div class="column full">
+                <div style="margin:1em 0 2.5em;">
+                    <a href="contact.html" class="btn btn-primary edit fl-left" style="color: white; 
+                                                                                        background-color:black">Get in touch </a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+</body>
+</html>
